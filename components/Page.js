@@ -17,6 +17,7 @@ class Page extends Component {
                 <Nav />
                 {/* Render props passed to this Component */}
                 {this.props.children}
+                <p><a href="https://newsapi.org/">Powered by News API</a></p>
                 <Footer />
             </div>
         );
